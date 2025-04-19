@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/luck-victory/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/luck-victory/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Luck Victory</title>
     <script type="module" crossorigin src="/luck-victory/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/luck-victory/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/luck-victory/assets/styles-WF2Tzt80.css">
   </head>
   <body>
     <header class="header">
@@ -17,7 +20,7 @@
 
 
     <main>
-    
+
       <!-- hero -->
  <section class="hero-section">
   <div class="container">
@@ -34,29 +37,51 @@
   <h2 class="victory-subtitle">
     The Luck Victory Philosophy
   </h2>
-  <p class="victory-text">
+  <div class="vector-container">
+    <img class="vector-img" src="../img/victory/vector.png" alt="vector">
+   <p class="victory-text">
     Winning in business isn’t about luck. It’s about smart strategy, consistent action, and the right support system.
   </p>
- <dl class="victory-list">
-  <dt class="victory-item">
+  </div>
+<source srcset="/luck-victory/assets/businessman-Bbwqu-EY.png 1x, 2x"/>
+  <img class="businessman-img" src="/luck-victory/assets/businessman-Bbwqu-EY.png" alt="Core Training Programs" loading="lazy" />
+ <ul class="victory-list">
+  <li class="victory-item">
+   <img class="workshops-dot"
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASUSURBVHgB1VrBUttIEG3JmIWCg/0H+oCtwjnmsIX5gvAH7HUPW3G+IPYXQGoPe4Q/cPIFNrWHHNFW7d3aL5ALMLAYSfuemHEmkASpJRPnVckejUc93T3drZ4ee1IDsixrzWazfd/3d3Ab4L7DPs/zWs6wCPcRvsM0Tf9uNBrjzc3NSCrCEyXI4M3NzWt8d3mJDiGefVdFmNICWMaTJOk5Gp7iGuO3U2g3ajab4cbGxhS/T+0zWKHArEoH1y66u7jcFTrBCg7qWJWv4vr6+u3l5WUMZjJeV1dXo4uLC65AS0Pv/Px8H3SGlh4vziF1A0QDED9zJhqyT2oCaUExJw79SW30QejAah0an1DjsiRgng7nMEJwzn2pAhB4a7UC4kdaUymDOI5bUNJRZZNymcfVl2cGhOirheDSfU/mLR4IcVDoIeNQ8fdm3sIRIi7k2IwA1uZlReD4xNk3B1q7ZyR4DoctCjq2E536XxxkYr2NOB1ZMTB8W1OiQI8G4IdjM+BYVhTOW7v/2Q+u9ut8w9YNh8/FKvj8QGLWNWM+LDWZqgjyBt8co9laX1/vsW+NH8gOX5sxJ1IRf/3xc7fhea/SVJAGZEHe6UmIOUK/0Ri8/C2MpAIgwAC0uiajFY/LghR4gvZ0a2urLUqcHXdas4sEb8ys961xvu8d/TdvDPbehFNRgKYD7ZPf1u3tbdt3zOdUlMiZv7wbPcU8kaZZr7l2NxoddlRhut1uc58xZhv7jn36QB4ybacGueYzKR56MfanZqLO+2ExVtkdCsB9LAUIRYGPf3aCIpp/zETWo7+IAtz18Rs8Bz4/eIN9qcom00SvSckdvTy4ZTXNHa5AwBZiayQKsAIhSkB5r0QB7Mmtslu+7aRziAZlbP/xw4Eo4PD6SYAfFRQgl+aLCVIh5MUq5aOiChwurwsBUMdRCQAf+CBKeJku8sGJA9OMfBs+EZp0tuzLe1HCTxoDUcDuVViq9MH4v+YmEAV++f0fVOTknZQEn3n5RpcXsbrHb9ZYaULhPUF1fVPu0rV+KXvG2G0+owRKkLumGfrz+dyawK7WkZmYze/W9oqsBMdsYewLZTJ3T+Ne2SwK58VdbCFHTFEh2R5y7rFUwMfDTpD4SV/8bOfTO8KLPDh7Cn+hyUkFsJ4KxodohsieX+SdtnTBYq2sOMDj0Ozbf1100nRMLfJH2VIu+MzfxHw1w6Nz+4V9HcqKAjzaxPHk0db3wSp0ZcXAUs+ThQenjDfRpxb1w5zwTAqVO+1BBpxlZUyJvNiK4ZODjaPESzvuKQmnzB8XDjAMUZUPGGrAgzOKcru3SgcMNaCWAxZXCNrhczg2HdbafCXmLcxRqD3wmKCYtLTKNcO3E23iz962FQkHTn0+r2DXfczqnhdjrrOlZASuSZmJhjPlUShNhRpn/uXQjDlHGTql/2pAzaAc2Uf2euAwM0UmO2bFDJliyBoTtn2R+1cDlEJa3PWhHTCfR7vr/lWBqcz29vaRfWZpAjwQpGsq2yq/YDkTNE41jC9oSA2wwsi9IDtmexo4Q6bm4r9TuIVlLv9ey7SL/wGDYmJcppstvwAAAABJRU5ErkJggg==" alt="dot"
+    width="24"
+    height="24"
+    loading="lazy">
+  <h3 class="victory-name">
     Mindset Shift:
-    </dt>
-    <dd class="text-item">
+    </h3>
+
+    <p class="text-item">
       Adopt the thinking patterns of high-achievers and develop an unstoppable confidence.
-    </dd>
-    <dt class="victory-item">
-      Strategic Execution:
-    </dt>
-    <dd class="text-item">
+    </p>
+  </li>
+    <li class="victory-item">
+      <img class="workshops-dot"
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASUSURBVHgB1VrBUttIEG3JmIWCg/0H+oCtwjnmsIX5gvAH7HUPW3G+IPYXQGoPe4Q/cPIFNrWHHNFW7d3aL5ALMLAYSfuemHEmkASpJRPnVckejUc93T3drZ4ee1IDsixrzWazfd/3d3Ab4L7DPs/zWs6wCPcRvsM0Tf9uNBrjzc3NSCrCEyXI4M3NzWt8d3mJDiGefVdFmNICWMaTJOk5Gp7iGuO3U2g3ajab4cbGxhS/T+0zWKHArEoH1y66u7jcFTrBCg7qWJWv4vr6+u3l5WUMZjJeV1dXo4uLC65AS0Pv/Px8H3SGlh4vziF1A0QDED9zJhqyT2oCaUExJw79SW30QejAah0an1DjsiRgng7nMEJwzn2pAhB4a7UC4kdaUymDOI5bUNJRZZNymcfVl2cGhOirheDSfU/mLR4IcVDoIeNQ8fdm3sIRIi7k2IwA1uZlReD4xNk3B1q7ZyR4DoctCjq2E536XxxkYr2NOB1ZMTB8W1OiQI8G4IdjM+BYVhTOW7v/2Q+u9ut8w9YNh8/FKvj8QGLWNWM+LDWZqgjyBt8co9laX1/vsW+NH8gOX5sxJ1IRf/3xc7fhea/SVJAGZEHe6UmIOUK/0Ri8/C2MpAIgwAC0uiajFY/LghR4gvZ0a2urLUqcHXdas4sEb8ys961xvu8d/TdvDPbehFNRgKYD7ZPf1u3tbdt3zOdUlMiZv7wbPcU8kaZZr7l2NxoddlRhut1uc58xZhv7jn36QB4ybacGueYzKR56MfanZqLO+2ExVtkdCsB9LAUIRYGPf3aCIpp/zETWo7+IAtz18Rs8Bz4/eIN9qcom00SvSckdvTy4ZTXNHa5AwBZiayQKsAIhSkB5r0QB7Mmtslu+7aRziAZlbP/xw4Eo4PD6SYAfFRQgl+aLCVIh5MUq5aOiChwurwsBUMdRCQAf+CBKeJku8sGJA9OMfBs+EZp0tuzLe1HCTxoDUcDuVViq9MH4v+YmEAV++f0fVOTknZQEn3n5RpcXsbrHb9ZYaULhPUF1fVPu0rV+KXvG2G0+owRKkLumGfrz+dyawK7WkZmYze/W9oqsBMdsYewLZTJ3T+Ne2SwK58VdbCFHTFEh2R5y7rFUwMfDTpD4SV/8bOfTO8KLPDh7Cn+hyUkFsJ4KxodohsieX+SdtnTBYq2sOMDj0Ozbf1100nRMLfJH2VIu+MzfxHw1w6Nz+4V9HcqKAjzaxPHk0db3wSp0ZcXAUs+ThQenjDfRpxb1w5zwTAqVO+1BBpxlZUyJvNiK4ZODjaPESzvuKQmnzB8XDjAMUZUPGGrAgzOKcru3SgcMNaCWAxZXCNrhczg2HdbafCXmLcxRqD3wmKCYtLTKNcO3E23iz962FQkHTn0+r2DXfczqnhdjrrOlZASuSZmJhjPlUShNhRpn/uXQjDlHGTql/2pAzaAc2Uf2euAwM0UmO2bFDJliyBoTtn2R+1cDlEJa3PWhHTCfR7vr/lWBqcz29vaRfWZpAjwQpGsq2yq/YDkTNE41jC9oSA2wwsi9IDtmexo4Q6bm4r9TuIVlLv9ey7SL/wGDYmJcppstvwAAAABJRU5ErkJggg==" alt="dot"
+    width="24"
+    height="24"
+    loading="lazy">
+      <h3 class="victory-name"> Strategic Execution: </h3>
+
+    <p class="text-item">
       Turn your vision into action with proven business growth techniques.
-    </dd>
-    <dt class="victory-item">
-      Resilience & Adaptability:
-    </dt>
-    <dd class="text-item">
+    </p>
+    </li>
+    <li class="victory-item">
+      <img class="workshops-dot"
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASUSURBVHgB1VrBUttIEG3JmIWCg/0H+oCtwjnmsIX5gvAH7HUPW3G+IPYXQGoPe4Q/cPIFNrWHHNFW7d3aL5ALMLAYSfuemHEmkASpJRPnVckejUc93T3drZ4ee1IDsixrzWazfd/3d3Ab4L7DPs/zWs6wCPcRvsM0Tf9uNBrjzc3NSCrCEyXI4M3NzWt8d3mJDiGefVdFmNICWMaTJOk5Gp7iGuO3U2g3ajab4cbGxhS/T+0zWKHArEoH1y66u7jcFTrBCg7qWJWv4vr6+u3l5WUMZjJeV1dXo4uLC65AS0Pv/Px8H3SGlh4vziF1A0QDED9zJhqyT2oCaUExJw79SW30QejAah0an1DjsiRgng7nMEJwzn2pAhB4a7UC4kdaUymDOI5bUNJRZZNymcfVl2cGhOirheDSfU/mLR4IcVDoIeNQ8fdm3sIRIi7k2IwA1uZlReD4xNk3B1q7ZyR4DoctCjq2E536XxxkYr2NOB1ZMTB8W1OiQI8G4IdjM+BYVhTOW7v/2Q+u9ut8w9YNh8/FKvj8QGLWNWM+LDWZqgjyBt8co9laX1/vsW+NH8gOX5sxJ1IRf/3xc7fhea/SVJAGZEHe6UmIOUK/0Ri8/C2MpAIgwAC0uiajFY/LghR4gvZ0a2urLUqcHXdas4sEb8ys961xvu8d/TdvDPbehFNRgKYD7ZPf1u3tbdt3zOdUlMiZv7wbPcU8kaZZr7l2NxoddlRhut1uc58xZhv7jn36QB4ybacGueYzKR56MfanZqLO+2ExVtkdCsB9LAUIRYGPf3aCIpp/zETWo7+IAtz18Rs8Bz4/eIN9qcom00SvSckdvTy4ZTXNHa5AwBZiayQKsAIhSkB5r0QB7Mmtslu+7aRziAZlbP/xw4Eo4PD6SYAfFRQgl+aLCVIh5MUq5aOiChwurwsBUMdRCQAf+CBKeJku8sGJA9OMfBs+EZp0tuzLe1HCTxoDUcDuVViq9MH4v+YmEAV++f0fVOTknZQEn3n5RpcXsbrHb9ZYaULhPUF1fVPu0rV+KXvG2G0+owRKkLumGfrz+dyawK7WkZmYze/W9oqsBMdsYewLZTJ3T+Ne2SwK58VdbCFHTFEh2R5y7rFUwMfDTpD4SV/8bOfTO8KLPDh7Cn+hyUkFsJ4KxodohsieX+SdtnTBYq2sOMDj0Ozbf1100nRMLfJH2VIu+MzfxHw1w6Nz+4V9HcqKAjzaxPHk0db3wSp0ZcXAUs+ThQenjDfRpxb1w5zwTAqVO+1BBpxlZUyJvNiK4ZODjaPESzvuKQmnzB8XDjAMUZUPGGrAgzOKcru3SgcMNaCWAxZXCNrhczg2HdbafCXmLcxRqD3wmKCYtLTKNcO3E23iz962FQkHTn0+r2DXfczqnhdjrrOlZASuSZmJhjPlUShNhRpn/uXQjDlHGTql/2pAzaAc2Uf2euAwM0UmO2bFDJliyBoTtn2R+1cDlEJa3PWhHTCfR7vr/lWBqcz29vaRfWZpAjwQpGsq2yq/YDkTNE41jC9oSA2wwsi9IDtmexo4Q6bm4r9TuIVlLv9ey7SL/wGDYmJcppstvwAAAABJRU5ErkJggg==" alt="dot"
+    loading="lazy">
+      <h3 class="victory-name"> Resilience & Adaptability:</h3>
+    <p class="text-item">
       Learn how to thrive in uncertainty and turn challenges into opportunities.
-    </dd>
- </dl>
+    </p>
+    </li>
+ </ul>
 </div>
 </aside>
  <!--Core Training Programs-->
