@@ -823,9 +823,12 @@ margin-bottom: 16px;
   border-bottom: 2px solid #c4922c;
 border-top: 2px solid #c4922c;
 padding: 32px 10px;
-max-width: 374px;
+width: 343px;
 max-height: 216px;
-top:140px;left:0;
+top:140px;
+left:50%;
+transform: translateX(-50%);
+
 }
 .elite-text{
   font-family: "Prompt", sans-serif;
@@ -879,7 +882,8 @@ color: #091018;
  min-width: 1264px;
   max-height: 216px;
   top:180px;
-  left:0;
+  left:50%;
+  transform: translateX(-50%);
   }
   .elite-text{
   max-width: 704px;
