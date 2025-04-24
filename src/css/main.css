@@ -1,5 +1,6 @@
 /* hero */
 .hero-section{
+  background-color: #091018;
   background-image: url('/img/hero/hero-mob.png');
   background-repeat: no-repeat;
   background-position: top center;
@@ -52,6 +53,9 @@ margin-top: 420px;
         }
 }
 /* The Luck Victory Philosophy */
+.victory-section{
+  background-color: #091018;
+}
 .victory-subtitle{
 font-weight: 250;
 font-size: 44px;
@@ -263,6 +267,9 @@ font-family: "Prompt", sans-serif;
   }
 }
 /*The Success Toolbox  */
+.toolbox-section{
+  background-color: #091018;
+}
 .toolbox-title{
   font-family: "Prompt", sans-serif;
 font-weight: 250;
@@ -330,7 +337,7 @@ margin-bottom: 24px;
   }
   .toolbox-text-container{
     padding: 16px 80px 16px 16px;
-  width: 75%;
+ min-width:648px;
   height: auto;
   position: absolute;
   top:174px;
@@ -479,7 +486,7 @@ background: #c4922c;
     position: absolute;
     top: 66%;
     transform: translateY(-30%);
-    width: 100%;
+    width: 1350px;
     z-index: 10;
   }
   .custom-arrow{
@@ -489,7 +496,7 @@ background: #c4922c;
   .custom-next {
     position: absolute;
     top:-10px;
-    left: 84%;
+    left: 88%;
     transform: translateX(-10%) rotate(180deg);
   }
   .custom-next {
@@ -527,5 +534,360 @@ background: #c4922c;
     margin-right: 20px;
     margin-left: auto;
     padding-bottom: 16px;
+  }
+}
+/* Business Mastery Workshops */
+.workshops-section{
+  background-color: #091018;
+}
+.workshops-title{
+  font-family: "Prompt", sans-serif;
+font-weight: 250;
+font-size: 44px;
+line-height: 1;
+letter-spacing: -0.04em;
+color: #969bad;
+margin-bottom: 142px;
+}
+.workshops-container{
+  position: relative;
+}
+.workshops-text-container{
+  border-radius: 8px 0 0 8px;
+padding: 12px 24px 12px 12px;
+max-width: 350px;
+height: auto;
+background: #f5f5f5;
+box-sizing: border-box;
+position: absolute;
+top:160px;
+left:112px;
+}
+.workshops-text{
+  font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 1.375;
+color: #091018;
+}
+.workshops-list{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  margin-top: 20px;
+}
+.workshops-item{
+  display: flex;
+  gap: 16px;
+}
+.workshops-subtitle{
+  font-family: "Prompt", sans-serif;
+font-weight: 275;
+font-size: 32px;
+line-height: 1.1875;
+color: #f5f5f5;
+margin-bottom: 8px;
+}
+.workshops-list-text{
+  font-family: "Prompt", sans-serif;
+font-weight: 275;
+font-size: 18px;
+line-height: 1.33333;
+color: #969bad;
+}
+@media only screen and (min-width:1439px) {
+  .workshops-title{
+  font-size: 58px;
+  margin-bottom: 182px;
+  }
+  .workshops-text-container{
+    border-radius: 0 16px 16px 0;
+    padding: 32px 32px 32px 80px;
+    min-width: 820px;
+    height: 94px;
+  position: absolute;
+  top:160px;
+  left:0;
+  }
+  .workshops-text{
+  font-size: 20px;
+  width: 800px;
+  }
+  .workshops-img{
+     margin-left: 775px;
+    width: 568px;
+    height: 463px;
+    margin-top: -162px;
+  }
+  .workshops-list{
+    display: flex;
+    flex-direction: column;
+    gap:42px;
+    margin-top: -300px;
+  }
+}
+/* Personalized Coaching */
+.coaching-section{
+  background-color: #f5f5f5;
+  background-image: url('/img/coaching/frame.png');
+  background-repeat: no-repeat;
+  background-position: top 150px center;
+  background-size: 343px 343px; 
+}
+.coaching-title{
+  font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-size: 44px;
+line-height: 1;
+letter-spacing: -0.04em;
+color: #969bad;
+margin-bottom: 399px;
+}
+.coaching-list{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.coaching-item{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.coaching-list-title{
+  font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-size: 28px;
+line-height: 1.21429;
+letter-spacing: -0.02em;
+color: #091018;
+}
+.coaching-list-text{
+  font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-size: 20px;
+line-height: 1.2;
+color: rgba(9, 16, 24, 0.7);
+width: 300px;
+}
+@media only screen and (min-width:1439px) {
+  .coaching-section{
+    background-image: url('/img/coaching/frame.png');
+    background-repeat: no-repeat;
+    background-position: top 130px right 50px;
+    background-size: 480px 480px; 
+  }
+  .coaching-title{
+  font-size: 58px;
+  margin-bottom: 80px;
+  }
+  .coaching-list{
+    gap:40px;
+  }
+  .coaching-item{
+     gap: 8px;
+  }
+  .coaching-list-title{
+  font-size: 32px;
+  }
+
+  .coaching-list-text{
+  width: 694px;
+  }
+}
+/* Success Stories */
+.stories-section{
+  background-color: #091018;
+}
+.stories-title{
+  font-family: "Prompt", sans-serif;
+font-weight: 250;
+font-size: 44px;
+line-height: 1;
+letter-spacing: -0.04em;
+color: #969bad;
+margin-bottom: 32px;
+}
+.stories-main-text{
+  font-family: "Prompt", sans-serif;
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #f5f5f5;
+  margin-bottom: 32px;
+}
+.stories-container{
+  border: 1px solid #c4922c;
+border-radius: 12px;
+padding: 12px;
+margin-bottom: 24px;
+max-width: 343px;
+}
+.stories-container:last-child{
+  margin-bottom: 0;
+}
+.core-img{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0;
+}
+.stories-subtitle{
+  font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-size: 24px;
+line-height: 1.16667;
+letter-spacing: -0.02em;
+color: #f5f5f5;
+width: 231px;
+margin-left: 84px;
+margin-top: -80px;
+margin-bottom: 8px;
+}
+.stories-subtitle-big{
+  margin-bottom: 32px;
+}
+.stories-text{
+  font-family: "Prompt", sans-serif;
+font-weight: 275;
+font-size: 20px;
+color: rgba(245, 245, 245, 0.8);
+margin-bottom: 8px;
+width: 313px;
+}
+@media only screen and (min-width:1439px) {
+  .stories-title{
+  font-size: 58px;
+  margin-bottom: 40px;
+  } 
+  .stories-main-text{
+    font-size: 32px;
+    text-align: right;
+    margin-bottom: 48px;
+    width: 658px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .stories-container{
+  border-radius: 16px;
+  padding: 16px;
+  max-width: 830px;
+  }
+  .stories-container:nth-child(odd){
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .stories-container:nth-child(even){
+    margin-left: 400px;
+    margin-right: auto;
+  }
+  .core-img{
+    width: 120px;
+    height: 120px;
+   }
+   .stories-subtitle{
+  width: 689px;
+  margin-left:155px;
+  margin-top: -120px;
+  margin-bottom: 8px;
+  }
+  .stories-subtitle-big{
+    margin-bottom: 8px;
+  }
+  .stories-text{
+  width: 689px;
+  margin-left: 155px;
+  }
+}
+/* Join the Elite */
+.elite-section {
+  background-color: #f5f5f5;
+  position: relative;
+  background-image: url('/img/join/line-dots-right@2x.png'), url('/img/join/line-dots-left@2x.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 94px right, top 430px left;
+  background-size: 345px 24px, 150px 24px;
+}
+
+.elite-title{
+  font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-size: 44px;
+line-height: 1;
+letter-spacing: -0.04em;
+color: #969bad;
+margin-bottom: 16px;
+}
+.colored-conteiner{
+  position:absolute;
+  background-color: #091018;
+  border-bottom: 2px solid #c4922c;
+border-top: 2px solid #c4922c;
+padding: 32px 10px;
+max-width: 374px;
+max-height: 216px;
+top:140px;left:0;
+}
+.elite-text{
+  font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-size: 32px;
+line-height: 1.1875;
+letter-spacing: -0.01em;
+text-align: center;
+background: linear-gradient(180deg, #f5f5f5 0%, #c4922c 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+max-width: 343px;
+margin-bottom: 64px;
+}
+.elite-mail{
+  margin-top: 338px;
+  text-align:right;
+  font-family: "Prompt", sans-serif;
+font-weight: 300;
+font-size: 24px;
+line-height: 1.66667;
+text-align: right;
+color: #091018;
+}
+.join-link{
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+@media only screen and (min-width:1439px) {
+  .elite-section {
+    background-color: #f5f5f5;
+    position: relative;
+    background-image: url('/img/join/line-dots-right-desk@2x.png'), url('/img/join/line-dots-left-desk@2x.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 98px right, top 380px left;
+    background-size: 900px 24px, 840px 24px;
+  }
+  
+  .elite-title{
+  font-size: 58px;
+  margin-bottom: 0;
+   }
+   .colored-conteiner{
+    position:absolute;
+    background-color: #091018;
+    border-bottom: 2px solid #c4922c;
+  border-top: 2px solid #c4922c;
+  padding: 32px 80px;
+ min-width: 1264px;
+  max-height: 216px;
+  top:180px;
+  left:0;
+  }
+  .elite-text{
+  max-width: 704px;
+  margin-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .elite-mail{
+    margin-top: 234px;
   }
 }
