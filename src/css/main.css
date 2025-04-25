@@ -185,6 +185,7 @@ width: 306px;
 
 .core-img{
   margin-bottom: 16px;
+
 }
 .list-core-container{
   border-radius: 12px;
@@ -408,7 +409,6 @@ max-width: 293px;
 background: linear-gradient(90deg, #091018 0%, #555e7c 100%);
 margin: 0;
 padding: 0;
-display: flex;
 }
 .swiper-text{
   font-family: "Prompt", sans-serif;
@@ -726,7 +726,7 @@ max-width: 343px;
 .stories-container:last-child{
   margin-bottom: 0;
 }
-.core-img{
+.stories-img{
   width: 80px;
   height: 80px;
   margin-bottom: 0;
@@ -780,7 +780,7 @@ width: 313px;
     margin-left: 400px;
     margin-right: auto;
   }
-  .core-img{
+  .stories-img{
     width: 120px;
     height: 120px;
    }
