@@ -498,7 +498,17 @@ background: #c4922c;
   }
   .custom-arrow{
     border: none;
-    background-color:inherit;
+    border-radius: 100px;
+    background-color: #969bad;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  .custom-arrow:hover {
+    background-color: #091018;
   }
   .custom-next {
     position: absolute;
@@ -508,6 +518,13 @@ background: #c4922c;
   }
   .custom-next {
     position: absolute;
+   }
+   .arrow{
+    stroke: #091018;
+    transition: stroke 0.3s ease;
+   }
+   .arrow:hover{
+    stroke: #969bad;
    }
   .custom-pagination {
     display: none;
