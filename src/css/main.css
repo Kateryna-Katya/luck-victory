@@ -508,7 +508,7 @@ background: #c4922c;
   }
 
   .transformations-swiper{
-    margin: 40px 0 0;
+    margin: 40px auto 0;
     width: 85%;
      display: flex;
   }
