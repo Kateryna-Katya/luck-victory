@@ -5,4 +5,105 @@
 
 .backgraund{
   background-color: #f5f5f5;
+  background-image: url('/img/line-mob.png');
+  background-repeat: no-repeat;
+  background-position: top 160px right;
+  background-size: 355px 24px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #091018;
+}
+.rules-button{
+border: none;
+display: flex;
+align-items: center;
+gap: 12px;
+background-color: inherit;
+font-family: "Prompt", sans-serif;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #091018;
+margin-bottom: 40px;
+}
+.rules-img{
+  display: none;
+}
+.policy-title{
+  font-weight: 300;
+font-size: 44px;
+line-height: 1;
+letter-spacing: -0.04em;
+color: #969bad;
+margin-bottom: 68px;
+}
+.policy-text{
+  width: 340px;
+}
+.policy-subtitle{
+font-weight: 400;
+font-size: 32px;
+line-height: 1.2;
+margin-top: 20px;
+}
+.rules-title{
+font-weight: 400;
+font-size: 26px;
+line-height: 1.5;
+margin: 16px 0;
+}
+.policy-list{
+  list-style-type:disc;
+  padding-left: 20px;
+}
+.link-underline{
+  text-decoration: underline;
+}
+.rules-subtitle{
+  font-family: "Prompt", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: #091018;
+margin-bottom: 16px;
+}
+.usage-text{
+  margin-bottom: 16px;
+}
+.text{
+  margin-top: 16px;
+}
+.date{
+  display: block;
+}
+@media only screen and (min-width:1439px) {
+  .policy-container{
+    padding: 56px 189px;
+  }
+  .backgraund{
+    background-image: none;
+  }
+  .rules-img{
+    display: block;
+    width: 613px;
+    height: 24px;
+    margin-top: -36px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .policy-title{
+  font-size: 58px;
+  margin-bottom: 0;
+   }
+   .text-with-margin{
+    margin-top: 50px;
+   }
+   .policy-text{
+    width: 1062px;
+  }
+  .date{
+    display: inline;
+  }
 }
