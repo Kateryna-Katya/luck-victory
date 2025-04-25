@@ -519,7 +519,7 @@ background: #c4922c;
   background: linear-gradient(90deg, #091018 0%, #555e7c 100%);
   margin: 0;
   padding: 0;
-  display: flex;
+
   }
   .swiper-text{
    max-width: 428px;
