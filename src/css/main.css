@@ -513,7 +513,7 @@ background: #c4922c;
   .custom-next {
     position: absolute;
     top:-10px;
-    left: 88%;
+    left: 90%;
     transform: translateX(-10%) rotate(180deg);
   }
   .custom-next {
