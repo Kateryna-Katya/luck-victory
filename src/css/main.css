@@ -804,7 +804,7 @@ width: 313px;
   position: relative;
   background-image: url('/img/join/line-dots-right@2x.png'), url('/img/join/line-dots-left@2x.png');
   background-repeat: no-repeat, no-repeat;
-  background-position: top 94px right, top 430px left;
+  background-position: top 94px right, top 410px left;
   background-size: 345px 24px, 150px 24px;
 }
 
@@ -845,7 +845,7 @@ max-width: 343px;
 margin-bottom: 64px;
 }
 .elite-mail{
-  margin-top: 338px;
+  margin-top: 318px;
   text-align:right;
   font-family: "Prompt", sans-serif;
 font-weight: 300;
